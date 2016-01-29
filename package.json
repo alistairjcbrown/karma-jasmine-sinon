@@ -1,0 +1,33 @@
+{
+  "name": "karma-jasmine-sinon",
+  "version": "0.0.1",
+  "description": "A karma plugin to bring jasmine-sinon into karma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alistairjcbrown/karma-jasmine-sinon.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "jasmine",
+    "sinon",
+    "jasmine-sinon",
+    "karma"
+  ],
+  "author": "Alistair Brown <npm@alistairjcbrown.com> (http://alistairjcbrown.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alistairjcbrown/karma-jasmine-sinon/issues"
+  },
+  "homepage": "https://github.com/alistairjcbrown/karma-jasmine-sinon#readme",
+  "dependencies": {
+    "jasmine-sinon": "~0.4.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  }
+}
